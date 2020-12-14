@@ -12,8 +12,8 @@ const DAY_NUM: [&str; 12] = ["first", "second", "third", "fourth", "fifth", "six
 fn print_stanza(n: usize) {
     let mut end =  ',';
     let mut start: &str;
-    let one_begin = if n == 0 {"A "}
-                    else {"And a "};
+    let one_begin = if n == 0 {"A"}
+                    else {"And a"};
     for i in (0..n+1).rev() {
         if i == 0 {
             end = '.';
