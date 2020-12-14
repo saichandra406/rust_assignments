@@ -28,7 +28,7 @@ fn print_stanza(n: usize) {
 }
 
 fn main() {
-    for i in 0..11 {
+    for i in 0..12 {
         println!("On the {} day of Christmas my true love sent to me", DAY_NUM[i]);
         print_stanza(i);
     }
